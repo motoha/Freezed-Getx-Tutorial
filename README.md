@@ -1,6 +1,8 @@
 # tutorial_series
 
-A new Flutter project.
+Freezed Getx Tutorial.
+
+Watch Youtube Tutorial : https://www.youtube.com/watch?v=q2cyhO1Ym1Q
 
 ## Getting Started
 
