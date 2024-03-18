@@ -2,7 +2,7 @@
 
 Freezed Getx Tutorial.
 
-Watch Youtube Tutorial : https://www.youtube.com/watch?v=q2cyhO1Ym1Q
+Watch Youtube Tutorial : [https://www.youtube.com/watch?v=q2cyhO1Ym1Q](https://youtu.be/jf0CHUopTlY)
 
 ## Getting Started
 
