@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:tutorial_series/app/modules/home/views/home_view.dart';
 
 import 'app/modules/Post/views/post_view.dart';
 
@@ -12,14 +14,14 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Freezed Example',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: false,
       ),
-      home: const PostView(),
+      home: const HomeView(),
     );
   }
 }
