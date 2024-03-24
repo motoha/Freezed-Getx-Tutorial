@@ -4,6 +4,7 @@ import 'package:get/get.dart';
 import 'package:tutorial_series/app/modules/Post/views/post_view.dart';
 
 import '../../dynamicTab/views/dynamic_tab_view.dart';
+import '../../ecommerce/views/ecommerce_view.dart';
 import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
@@ -41,7 +42,12 @@ class HomeView extends GetView<HomeController> {
                   onPressed: () {
                     Get.to(const DynamicTab());
                   },
-                  child: const Text("Dynamic Nested Tabs"))
+                  child: const Text("Dynamic Nested Tabs")),
+              ElevatedButton(
+                  onPressed: () {
+                    Get.to(const EcommerceView());
+                  },
+                  child: const Text("Ecommerce add cart"))
             ],
           ),
         ),

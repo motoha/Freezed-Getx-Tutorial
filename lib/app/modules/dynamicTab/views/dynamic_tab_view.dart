@@ -40,9 +40,11 @@ class DynamicTab extends StatefulWidget {
 class _DynamicTabState extends State<DynamicTab>
     with SingleTickerProviderStateMixin {
   late TabController _tabController;
+
   List<CategoryTab> categories = (jsonDecode(jsonData) as List)
       .map((data) => CategoryTab.fromJson(data))
       .toList();
+
   @override
   void initState() {
     _tabController = TabController(length: categories.length, vsync: this);

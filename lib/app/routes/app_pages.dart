@@ -4,6 +4,8 @@ import '../modules/Post/bindings/post_binding.dart';
 import '../modules/Post/views/post_view.dart';
 import '../modules/dynamicTab/bindings/dynamic_tab_binding.dart';
 import '../modules/dynamicTab/views/dynamic_tab_view.dart';
+import '../modules/ecommerce/bindings/ecommerce_binding.dart';
+import '../modules/ecommerce/views/ecommerce_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 
@@ -29,6 +31,11 @@ class AppPages {
       name: _Paths.DYNAMIC_TAB,
       page: () => DynamicTab(),
       binding: DynamicTabBinding(),
+    ),
+    GetPage(
+      name: _Paths.ECOMMERCE,
+      page: () => const EcommerceView(),
+      binding: EcommerceBinding(),
     ),
   ];
 }
